@@ -12,13 +12,13 @@ body {
 
     font-weight: bold;
     color: white;
-    font-family: initial;
+    font-family: "Charm";
 }
 
 .movie_description {
 
     color: white;
-    font-family: initial;
+    font-family: "Charm", cursive;
 }
 
 .movie_info {
@@ -47,7 +47,7 @@ body {
     margin-bottom: 15px;
 }
 
-.charm-regular {
+/* .charm-regular {
     font-family: "Charm", cursive;
     font-weight: 400;
     font-style: normal;
@@ -57,4 +57,4 @@ body {
     font-family: "Charm", cursive;
     font-weight: 700;
     font-style: normal;
-}
+} */

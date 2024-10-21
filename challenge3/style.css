@@ -1,7 +1,15 @@
 /* Add your code in each class */
 .container {
+
+  height: 300px;
+  width: 400px;
+  overflow: auto;
+  font-family: "Playwrite GB S", cursive;
+  background-color: cadetblue;
 }
+
 .head {
+  font-family: "Playwrite GB S", cursive;
 }
 
 .row {

@@ -1,16 +1,32 @@
 /* Add your code in each class */
 body {
+
+  background-color: #3c096c;
 }
+
 .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
 }
+
 .movie-card {
+  align-items: center;
+  text-align: center;
+  margin: auto;
 }
+
 .movie-image {
+  height: 300px;
+  object-fit: cover;
+  object-position: 80% 100%;
 }
-.movie-details-container {
-}
-.descriptions {
-}
+
+.movie-details-container {}
+
+.descriptions {}
 
 /*A gift from us!*/
 .movie-shadow {
@@ -21,11 +37,9 @@ body {
   height: 100%;
   width: 100%;
   background: rgb(0, 0, 0);
-  background: linear-gradient(
-    0deg,
-    rgba(0, 0, 0, 0.75) 0%,
-    rgba(0, 0, 0, 0) 100%
-  );
+  background: linear-gradient(0deg,
+      rgba(0, 0, 0, 0.75) 0%,
+      rgba(0, 0, 0, 0) 100%);
 }
-.movie-title {
-}
+
+.movie-title {}

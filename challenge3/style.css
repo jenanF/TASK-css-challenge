@@ -5,15 +5,22 @@
   width: 400px;
   overflow: auto;
   font-family: "Playwrite GB S", cursive;
-  background-color: cadetblue;
 }
 
 .head {
   font-family: "Playwrite GB S", cursive;
+  background-color: #003459;
+  color: white;
+  position: sticky;
+
 }
 
 .row {
   /* .row is used in ./index.js not in the html filee */
+
+  background-color: #007ea7;
+  color: white;
+  overflow: auto;
 }
 
 /* This is a gift - Does not need editing */

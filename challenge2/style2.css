@@ -1,0 +1,25 @@
+body {
+    background-image: url("https://www.nbc.com/sites/nbcblog/files/2024/03/how-to-train-your-dragon-mead-hall.jpg");
+    background-size: cover;
+}
+
+.card_image {
+    height: 300px;
+}
+
+.card {
+
+    display: flex;
+    border-radius: 10%;
+    width: 500px;
+    background-color: #6096ba;
+    padding: 10px;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.info {
+    align-items: center;
+    text-align: center;
+}

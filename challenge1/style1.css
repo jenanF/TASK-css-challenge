@@ -1,0 +1,60 @@
+body {
+    background-color: #360568;
+}
+
+.movie_poster {
+
+    height: 400px;
+    border-radius: 10%;
+}
+
+.movie_title {
+
+    font-weight: bold;
+    color: white;
+    font-family: initial;
+}
+
+.movie_description {
+
+    color: white;
+    font-family: initial;
+}
+
+.movie_info {
+    border-radius: 3%;
+    border-width: 2px;
+    border-style: dashed;
+    border-color: white;
+    width: fit-content;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.movie {
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    border-radius: 3%;
+    border-width: 2px;
+    border-style: dashed;
+    border-color: white;
+    width: fit-content;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.charm-regular {
+    font-family: "Charm", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.charm-bold {
+    font-family: "Charm", cursive;
+    font-weight: 700;
+    font-style: normal;
+}

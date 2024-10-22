@@ -13,33 +13,58 @@ body {
 }
 
 .movie-card {
-  align-items: center;
-  text-align: center;
+  align-items: end;
+  display: flex;
+
+  text-align: left;
+  color: white;
+  background-image: url(./harrypotter.jpg);
+  height: 250px;
+  width: 275px;
+  background-size: cover;
   margin: auto;
+  position: absolute;
+
+
 }
 
-.movie-image {
+/* .movie-image {
   height: 300px;
   object-fit: cover;
   object-position: 80% 100%;
+} */
+
+.movie-details-container {
+  position: absolute;
+  padding: 15px;
+
 }
 
-.movie-details-container {}
+.descriptions {
+  font-weight: lighter;
+  font-size: small;
 
-.descriptions {}
+
+}
 
 /*A gift from us!*/
-.movie-shadow {
-  /*
-    This gradient was made by this website https://cssgradient.io/
+/*
+  This gradient was made by this website https://cssgradient.io/
 */
+.movie-shadow {
   position: absolute;
   height: 100%;
   width: 100%;
+
+
   background: rgb(0, 0, 0);
   background: linear-gradient(0deg,
       rgba(0, 0, 0, 0.75) 0%,
       rgba(0, 0, 0, 0) 100%);
 }
 
-.movie-title {}
+.movie-title {
+  font-size: large;
+  font-weight: bold;
+
+}
